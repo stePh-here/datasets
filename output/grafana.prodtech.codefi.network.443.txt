@@ -1,0 +1,14 @@
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Content-Type: text/html
+Date: Mon, 13 Dec 2021 15:35:23 GMT
+Location: https://auth.prodtech.codefi.network/oauth2/start?rd=https://grafana.prodtech.codefi.network/
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

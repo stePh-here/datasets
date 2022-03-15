@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Connection: close
+Cache-Control: no-cache,no-store,max-age=0
+Date: Mon, 13 Dec 2021 15:35:52 GMT
+Expires: 0
+Location: https://cloudsso.cisco.com/as/authorization.oauth2?response_type=code&client_id=wam_prod_ac&redirect_uri=https%3A%2F%2Feagrafana-rcdn.cloudapps.cisco.com%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiZyIsInN1ZmZpeCI6IjhHc1V6My4xNjM5NDEwMDUyIn0..cwjdFwkWZ-87rnU3AHEjag.u3NL68zA4b4qxwX7t2efX7IDkC-sHI0WWLUlJsXb43dB6QnPMx3N0akK1ugKY3P8wUMQDxtDA2S0EKAsqS087-UYCUJGoQxecsPmgyjgEarLJQICK2ZmC7SYRhpucz2f.EhV7KIQF9MYggeD7NXkm9A&nonce=_Yux2DvcyBvjneCRp2qPCzy2FK22pzx-x33l0iaip94&acr_values=stdnomfa&scope=openid%20profile%20address%20email%20phone&vnd_pi_requested_resource=https%3A%2F%2Feagrafana-rcdn.cloudapps.cisco.com%3A443%2F&vnd_pi_application_name=CAEAXprod-eagrafana-rcdn.cloudapps
+Pragma: no-cache
+Server: Apache/2.4.34 (Red Hat) OpenSSL/1.0.2k-fips
+Set-Cookie: nonce.8GsUz3.1639410052=efa90b8b-b987-4c38-a17c-941cca525edc; Path=/; Secure; HttpOnly
+Set-Cookie: CSPROD.CAEAXprod=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly
+Set-Cookie: PA_STATE.CAEAXprod=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+X-Frame-Options: DENY
+X-Rp-Ssl-Name: cae-prd-rcdn-prt-ext-dedicated2-kube-rp-0.cisco.com
+Content-Length: 0
+

@@ -1,0 +1,20 @@
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 361
+Content-Type: text/html; charset=iso-8859-1
+Date: Mon, 13 Dec 2021 15:35:50 GMT
+Expires: Mon, 13 Dec 2021 15:36:50 GMT
+Location: https://dcloud-ei-grafana-sjc.cisco.com/d/dNzdeZSMk/ei-pump-pressures-overview/
+Server: Apache/2.4.18 (Ubuntu)
+Set-Cookie: dcloud-ei-grafana=1639409750;Secure;expires=Mon, 13 Dec 2021 17:37:50 GMT
+Set-Cookie: SRVNAME=ei-grafana02|YbdoW|YbdoW; path=/
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://dcloud-ei-grafana-sjc.cisco.com/d/dNzdeZSMk/ei-pump-pressures-overview/">here</a>.</p>
+<hr>
+<address>Apache/2.4.18 (Ubuntu) Server at dcloud-ei-grafana-sjc.cisco.com Port 443</address>
+</body></html>

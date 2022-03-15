@@ -1,0 +1,16 @@
+pre-sg-pull-akamai.lazada-seller.cn
+sellercenter-sg.lazada-seller.cn
+sellercenter-th.lazada-seller.cn
+sellercenter-id-staging.lazada-seller.cn
+sellercenter-vn-staging.lazada-seller.cn
+id-pull-akamai.lazada-seller.cn
+sellercenter-id.lazada-seller.cn
+sellercenter-my.lazada-seller.cn
+pre-id-pull-akamai.lazada-seller.cn
+sellercenter-my-staging.lazada-seller.cn
+sellercenter-th-staging.lazada-seller.cn
+sellercenter-ph-staging.lazada-seller.cn
+sellercenter-sg-staging.lazada-seller.cn
+sellercenter-ph.lazada-seller.cn
+sellercenter-vn.lazada-seller.cn
+sg-pull-akamai.lazada-seller.cn

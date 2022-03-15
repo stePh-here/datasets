@@ -1,0 +1,3 @@
+fr.launch.airbnb.app
+www.airbnb.app
+com.airbnb.app

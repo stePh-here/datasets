@@ -1,0 +1,7 @@
+autodiscover.cynicaltechnology.com
+cpanel.cynicaltechnology.com
+mail.cynicaltechnology.com
+t.cynicaltechnology.com
+webdisk.cynicaltechnology.com
+webmail.cynicaltechnology.com
+www.cynicaltechnology.com

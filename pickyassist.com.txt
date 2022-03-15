@@ -1,0 +1,15 @@
+ns1.pickyassist.com
+help.pickyassist.com
+ns4.pickyassist.com
+agents.pickyassist.com
+users.pickyassist.com
+ns2.pickyassist.com
+test.pickyassist.com
+support.pickyassist.com
+www.pickyassist.com
+ns3.pickyassist.com
+agent.pickyassist.com
+feedbacks.pickyassist.com
+blog.pickyassist.com
+www.blog.pickyassist.com
+www.support.pickyassist.com

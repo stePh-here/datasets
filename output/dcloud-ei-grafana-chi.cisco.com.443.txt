@@ -1,0 +1,94 @@
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private
+Content-Type: text/html
+Date: Mon, 13 Dec 2021 15:35:23 GMT
+Etag: "19ce-5bb0b11857773-gzip"
+Expires: Mon, 13 Dec 2021 15:32:36 GMT
+Last-Modified: Thu, 11 Feb 2021 08:11:36 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Set-Cookie: dcloud-ei-grafana=1639409496;Secure;expires=Mon, 13 Dec 2021 17:33:36 GMT
+Set-Cookie: SRVNAME=ei-grafana01|YbdnW|YbdnW; path=/
+Vary: Accept-Encoding
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Edge Intelligence Instant Demo</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.6">
+  <style type="text/css">
+    p.p2 {margin: 0.0px 0.0px 2.5px 0.0px; line-height: 15.0px; font: 10.0px 'PT Sans'; color: #262626; -webkit-text-stroke: #262626}
+    p.p3 {margin: 0.0px 0.0px 0.0px 15.0px; line-height: 15.0px; font: 10.0px 'PT Sans'; color: #262626; -webkit-text-stroke: #262626}
+    p.p4 {margin: 0.0px 0.0px 2.5px 0.0px; text-align: center; font: 12.0px 'PT Sans'}
+    p.p5 {margin: 0.0px 0.0px 2.5px 0.0px; text-align: center; line-height: 15.0px; font: 10.0px 'PT Sans'; color: #262626; -webkit-text-stroke: #262626}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 10.0px 'PT Sans'; color: #262626; -webkit-text-stroke: #262626}
+    p.p7 {margin: 0.0px 0.0px 2.5px 0.0px; line-height: 13.0px; font: 10.0px 'PT Sans'; color: #262626; -webkit-text-stroke: #262626}
+    p.p8 {margin: 0.0px 0.0px 2.5px 12.0px; font: 12.0px 'PT Sans'}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; -webkit-text-stroke: 0px #000000}
+    span.s3 {font: 10.0px 'PT Sans'; font-kerning: none; color: #262626; -webkit-text-stroke: 0px #262626}
+    span.s4 {text-decoration: underline ; font-kerning: none}
+    table.t1 {margin: 0.0px 0.0px 20.0px 0.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #adadad #adadad #adadad #adadad; border-collapse: collapse; table-layout: fixed}
+    td.td1 {width: 415.3px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #adadad #adadad #adadad #adadad; padding: 3.0px 5.0px 3.0px 5.0px}
+  </style>
+</head>
+<body>
+<h4 style="margin: 0.0px 0.0px 5.0px 0.0px; text-align: center; line-height: 21.0px; font: 21.3px 'PT Sans'; color: #0003ff; -webkit-text-stroke: #0003ff"><span class="s1"><b>Cisco Edge Intelligence</b></span></h4>
+<p class="p2"><span class="s1"><b>Cisco Edge Intelligence (EI) </b>is a software service under <b>IoT Operations Dashboard.</b> It is an edge-to-multi-cloud data orchestration software designed for connected assets and deployed on Cisco IoT Edge Devices for simple out-of-the box deployment. EI is designed specifically to extract, transform, govern, and deliver data from the things that make up the IoT to the various applications where it can provide value. And because EI has a network-integrated approach with centralized management across the network, applications, and data, it is easy to scale and secure.</span></p>
+<p class="p4"><span class="s2"></span></p>
+<p class="p5"><span class="s1"><br></span></p>
+<p class="p2"><span class="s1">Edge Intelligence significantly speeds the labor-intensive process of developing and deploying applications that process data at the edge. It offers a plugin for Microsoft Visual Studio Code. Organizations everywhere can easily create code and push applications out wherever they need to go without having to leave Microsoft Visual Studio. Learn more about Edge Intelligence <a href="https://developer.cisco.com/docs/iotod/#!edge-device-overview">here</a>.</span></p>
+<p class="p4"><span class="s2"></span></p>
+<p class="p5"><span class="s1"><br></span></p>
+<p class="p8"><a><img src="images/EdgeIntelligence.png" alt="Control and Governance of Your IoT Data" width="550" height="280"></a></p>
+<p class="p4"><span class="s2"></span></p>
+<p class="p5"><span class="s1"><br></span></p>
+<p class="p2"><span class="s1">In this <b>Edge Intelligence Instant Demo</b> we will use simulated OPC-UA and MQTT data as an client device connected to the IOx VM running Edge Intelligence Agent. This agent is managed by the Edge Intelligence cloud tenant and defines the policy for data destinations along with definition for type of edge data and devices. We have installed a Grafana dashboard for data visualization and will define a policy in Edge Intelligence tenant to send data to this dashboard. The lab topology looks like this:</span></p>
+<p class="p3"><span class="s1">1. <b>OPC UA &amp; MQTT</b> Simulators are used to generate data at the Edge.</span></p>
+<p class="p3"><span class="s1">2. Simulated data is sent to an Edge Device running <b>IOx VM</b> with <b>EI Broker</b>.</span></p>
+<p class="p3"><span class="s1">3. <b>Edge Intelligence Tenant</b> defines the Data Endpoints and Data Policies.</span></p>
+<p class="p3"><span class="s1">4. Data is sent to <b>Grafana Dashboard</b>, i.e. sample destination used for this demo.</span></p>
+
+<p class="p4"><span class="s2"></span></p>
+<p class="p8"><a><img src="images/GrafanaDashboard.png" alt="Control and Governance of Your IoT Data" width="565" height="245"></a></p>
+<p class="p4"><span class="s2"></span></p>
+<p class="p5"><span class="s1"><br></span></p>
+
+<p class="p2"><span class="s1">Follow the EI Tenant and Grafana Dashboard links below to view the configurations and refer the Demo Guide for step-by-step instructions.</span></p>
+<p class="p2"><span class="s1"><b>Note:</b> All steps in the Demo Guide are view-only and everything is pre-configured for this demo. Links below will give read-only access to the interfaces.</span></p>
+<p class="p2"><span class="s1"><br></span></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="top" class="td1">
+        <p class="p6"><span class="s1"><b>Access to Demo Interfaces</b></span></p>
+      </td>
+      <td valign="top" class="td1">
+        <p class="p6"><span class="s1"><b>Description of Demo Interfaces</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td1">
+        <p class="p7"><span class="s4"><a href="https://dcloud-ei-portal-sng.cisco.com/" target="_blank" rel="noopener noreferrer">Edge Intelligence Tenant</a></span></p>
+      </td>
+      <td valign="top" class="td1">
+        <p class="p7"><span class="s1">EI Cloud tenant to manage the Data Path</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td1">
+        <p class="p7"><span class="s4"><a href="https://dcloud-ei-grafana-sng.cisco.com/" target="_blank" rel="noopener noreferrer">Grafana Dashboard</a></span></p>
+      </td>
+      <td valign="top" class="td1">
+        <p class="p7"><span class="s1">Sample northbound destination to display metrics</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p2"><span class="s1"> </span></p>
+</body>
+</html>

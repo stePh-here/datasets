@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Connection: close
+Cache-Control: no-cache,no-store,max-age=0
+Date: Mon, 13 Dec 2021 15:35:25 GMT
+Expires: 0
+Location: https://cloudsso.cisco.com/as/authorization.oauth2?response_type=code&client_id=wam_prod_ac&redirect_uri=https%3A%2F%2Fdwt-grafana.cisco.com%3A443%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiZyIsInN1ZmZpeCI6ImxkSGxMQS4xNjM5NDEwMDI1In0..LNX85zCoOdVSarTSg-xvYA.7xtevAEZjOHm2M_xSzBlCt5sNg5d5-BJoLYCh7PT-lxkc0GMqedxD89C1J-Mcqw63tfLJqWeNKj_4_DQimBs0s76H3WU93kcnQuCU_-7LJg.wV8uwABTDo0i5WrYOKj3qQ&nonce=lNC88PZsSG576in7VEKrE2QaOjmkEIRwshEf6uLjVf0&acr_values=stdnomfa&scope=openid%20profile%20address%20email%20phone&vnd_pi_requested_resource=https%3A%2F%2Fdwt-grafana.cisco.com%3A443%2F&vnd_pi_application_name=CAEAXprod-dwt-grafana
+Pragma: no-cache
+Server: Apache/2.4.34 (Red Hat) OpenSSL/1.0.2k-fips
+Set-Cookie: nonce.ldHlLA.1639410025=5707956d-2b4e-4d4a-b5b7-41e9113abeb4; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: CSPROD.CAEAXprod=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_STATE.CAEAXprod=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+X-Frame-Options: DENY
+X-Rp-Ssl-Name: cae-prd-rcdn-prt-ext-kube-rp-0.cisco.com
+Content-Length: 0
+

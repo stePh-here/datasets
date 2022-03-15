@@ -1,0 +1,9 @@
+services.mcdelivery.co.in
+api.mcdelivery.co.in
+images.mcdelivery.co.in
+locateme.mcdelivery.co.in
+m.mcdelivery.co.in
+services.mcdelivery.co.in
+www.mcdelivery.co.in
+backoffice.mcdelivery.co.in
+uat.mcdelivery.co.in

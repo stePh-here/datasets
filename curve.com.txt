@@ -1,0 +1,12 @@
+mail.curve.com
+mta.mail.curve.com
+help.curve.com
+clicks.curve.com
+web.curve.com
+link.curve.com
+www.web.curve.com
+status.curve.com
+community.curve.com
+www.curve.com
+www.help.curve.com
+cdn.curve.com

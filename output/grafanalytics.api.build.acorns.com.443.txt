@@ -1,0 +1,23 @@
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Mon, 13 Dec 2021 15:35:51 GMT
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 7277af1f0e97793d2cf0976629e553ee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: KYWsHm3huH_-lCgvagvfME2jDfIeIEo_KorJb-kmgIbCHHK1VpQmmQ==
+X-Amz-Cf-Pop: MRS52-C2
+X-Amz-Id-2: FIJfJCW1XztehXKkqllsEcK8Tn2BVHi8Yfy24K7krIuKgDC/RqkSqXvwBMaPYSIxODFcJP3DOkc=
+X-Amz-Request-Id: HYV141P1PCY9ZKM5
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>HYV141P1PCY9ZKM5</RequestId><HostId>FIJfJCW1XztehXKkqllsEcK8Tn2BVHi8Yfy24K7krIuKgDC/RqkSqXvwBMaPYSIxODFcJP3DOkc=</HostId></Error>
+0
+

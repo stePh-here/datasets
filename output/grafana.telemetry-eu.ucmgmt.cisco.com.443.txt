@@ -1,0 +1,81 @@
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: default-src 'self' https://web.troubleshoot.telemetryd.int-ucmgmt.cisco.com/logadvisor/api/log_collection https: wss:;	base-uri 'self';	script-src 'self';	style-src 'self' 'unsafe-inline';	connect-src 'self' https://web.troubleshoot.telemetryd.int-ucmgmt.cisco.com/logadvisor/api/log_collection wss:;	font-src 'self';	img-src 'self' data:;	object-src 'self';	frame-ancestors 'self' https://*.webex.com http://127.0.0.1:8000;form-action 'none';upgrade-insecure-requests;	worker-src 'self';
+Content-Type: text/html; charset=utf-8
+Date: Mon, 13 Dec 2021 15:35:50 GMT
+Feature-Policy: camera 'none'
+Referrer-Policy: same-origin
+Set-Cookie: AWSALB=us8NaNqPqRRP34djVxLVr/oNph0Z0PHkFr3rBzLAoLX558YJEKGLXvacBYbIZi/PJcQMNDXzKrbeYXFczCr7YnvQoN3RzCXgOI8ZLy3tck+NuBTSSZl/hqAohzBZ; Expires=Mon, 20 Dec 2021 15:35:50 GMT; Path=/
+Set-Cookie: AWSALBCORS=us8NaNqPqRRP34djVxLVr/oNph0Z0PHkFr3rBzLAoLX558YJEKGLXvacBYbIZi/PJcQMNDXzKrbeYXFczCr7YnvQoN3RzCXgOI8ZLy3tck+NuBTSSZl/hqAohzBZ; Expires=Mon, 20 Dec 2021 15:35:50 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=2592000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: undefined
+X-Xss-Protection: 1; mode=block
+
+e33
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CCUC UI</title>
+    <meta charset="utf-8" />
+    <meta name="_IS_PROD_ENVIRONMENT_" content="true"/>
+    <base href="/analytics/">
+    <meta name="description" content="Telemetry UI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- <link rel="stylesheet" href="asset/css/core.css" />
+    <link rel="stylesheet" href="asset/css/style.css" /> -->
+
+    <!--<link rel="preload" href="/asset/fonts/CiscoSansTTExtraLight.woff" as="font" type="font/woff" crossorigin async />
+    <link rel="preload" href="/asset/fonts/CiscoSansTTLight.woff" as="font" type="font/woff" crossorigin async />
+    -->
+    <link rel="preload" href="asset/css/core.css" as="style" /> 
+    <link rel="preload" href="asset/css/style.css" as="style" />
+    <!--link rel="modulepreload" href="/web_modules/uuidv4.js" crossorigin async />
+    <link rel="modulepreload" href="/web_modules/chart.js" crossorigin async />
+    <link rel="modulepreload" href="/web_modules/react.js" crossorigin async />
+    <link rel="modulepreload" href="/web_modules/pako.js" crossorigin async />
+    <link rel="modulepreload" href="/web_modules/htm/react.js" crossorigin async />
+    <link rel="modulepreload" href="/web_modules/react-dom.js" crossorigin async />
+    <link rel="modulepreload" href="/web_modules/react-router-dom.js" crossorigin async /-->
+    <!-- <link rel="modulepreload" href="analytics/components/download/index.js" crossorigin /> -->
+    <link rel="modulepreload" href="analytics/main.js" crossorigin />
+    <link rel="modulepreload" href="analytics/components/pages/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/components/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/components/pages/home/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/components/card/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/state/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/state/home.js" crossorigin />
+    <link rel="modulepreload" href="analytics/reducer/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/reducer/global.js" crossorigin />
+    <link rel="modulepreload" href="analytics/reducer/detailed.js" crossorigin />
+    <link rel="modulepreload" href="analytics/reducer/download.js" crossorigin />
+    <link rel="modulepreload" href="common/components/icon/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/components/chart/kpi/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/components/chart/line/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/components/chart/pie/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/components/grid/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/context/index.js" crossorigin />
+    <link rel="modulepreload" href="common/components/loader/index.js" crossorigin />
+    <link rel="modulepreload" href="analytics/components/mrabanner/index.js" crossorigin />
+    <link rel="modulepreload" href="common/rpc/index.js" crossorigin />
+    <link rel="modulepreload" href="common/utils/index.js" crossorigin />
+
+    <script type="module" src="analytics/main.js"></script>
+</head>
+
+<body>
+    <main id="app" role="application" class="flex flex-col height100 opacity0" />
+</body>
+
+</html>
+
+0
+
